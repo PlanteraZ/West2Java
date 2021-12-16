@@ -3,6 +3,10 @@ package catcafe;
 import java.util.*;
 import java.time.LocalDate;
 
+import catcafe.cat.BlackCat;
+import catcafe.cat.OrangeCat;
+import catcafe.catcafe.MyCatCafe;
+import catcafe.customer.Customer;
 import catcafe.exception.CatNotFoundException;
 import catcafe.exception.InsufficientBalanceException;
 
@@ -18,7 +22,7 @@ public class Test {
         Scanner in = new Scanner(System.in);
         MyCatCafe myCatCafe = new MyCatCafe();
         System.out.println("请输入要为该猫咖注入的启动资金：");
-        myCatCafe.balance = in.nextDouble();
+        myCatCafe.setBalance(in.nextDouble());
         System.out.println("猫咖创建成功！");
         while(true) {
             System.out.println("1.为该猫咖买入新猫猫\t2.创建新顾客，让该猫咖招待该顾客\t3.让该猫咖歇业\t4.退出程序");
@@ -37,7 +41,7 @@ public class Test {
                             int age = in.nextInt();
                             System.out.println("请输入该猫的性别，false表示母猫，true表示公猫：");
                             boolean gender = in.nextBoolean();
-                            OrangeCat orangeCat = new OrangeCat(name, age, gender, 200);
+                            OrangeCat orangeCat = new OrangeCat(name, age, gender);
                             try {
                                 myCatCafe.restock(orangeCat);
                             } catch (InsufficientBalanceException e) {
@@ -52,7 +56,7 @@ public class Test {
                             int age = in.nextInt();
                             System.out.println("请输入该猫的性别，false表示母猫，true表示公猫：");
                             boolean gender = in.nextBoolean();
-                            BlackCat blackCat = new BlackCat(name, age, gender, 350);
+                            BlackCat blackCat = new BlackCat(name, age, gender);
                             try {
                                 myCatCafe.restock(blackCat);
                             } catch (InsufficientBalanceException e) {
@@ -69,14 +73,14 @@ public class Test {
                 case 2: {
                     Customer customer = new Customer();
                     System.out.println("请输入该顾客的姓名：");
-                    customer.name = in.next();
+                    customer.setName(in.next());
                     System.out.println("请输入该顾客想rua猫的次数：");
-                    customer.ruaCount = in.nextInt();
+                    customer.setRuaCount(in.nextInt());
                     System.out.println("请分别输入该顾客到店时间的年、月、日，格式为：年(回车)月(回车)日(回车)：");
                     int year = in.nextInt();
                     int month = in.nextInt();
                     int day = in.nextInt();
-                    customer.arrivalTime = LocalDate.of(year, month, day);
+                    customer.setArrivalTime(LocalDate.of(year, month, day));
                     System.out.println("顾客创建完成!");
                     try {
                         myCatCafe.serveCustomer(customer);

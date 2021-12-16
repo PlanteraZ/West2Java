@@ -38,7 +38,6 @@ public class Multithreading {
         Thread t1 = new Thread(()->{
             try {
                 this.printArr1(arr1);
-
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
