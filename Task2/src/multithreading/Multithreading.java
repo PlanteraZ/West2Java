@@ -30,7 +30,6 @@ public class Multithreading {
             System.out.print(j + " ");
             flag = !flag;
             this.notifyAll();
-
         }
     }
 

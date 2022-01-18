@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3dba8dd0-da7d-4dd9-a196-2e7eb0c8e79d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Task2/reference/二轮参考.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoGet/CityInfoGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoGet/WeatherInfoGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoKeep/CityInfoKeep/BeijingCityInfoKeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoKeep/CityInfoKeep/FuzhouCityInfoKeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoKeep/CityInfoKeep/ShanghaiCityInfoKeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoKeep/WeatherInfoKeep/BeijingWeatherInfoKeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoKeep/WeatherInfoKeep/FuzhouWeatherInfoKeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoKeep/WeatherInfoKeep/ShanghaiWeatherInfoKeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoObjects/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoObjects/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoSet/CityInfoSet/BeijingCityInfoSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoSet/CityInfoSet/FuzhouCityInfoSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoSet/CityInfoSet/ShanghaiCityInfoSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoSet/WeatherInfoSet/BeijingWeatherInfoSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoSet/WeatherInfoSet/FuzhouWeatherInfoSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/business/InfoSet/WeatherInfoSet/ShanghaiWeatherInfoSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBQuery/CityInfoQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBQuery/WeatherInfoQuery/BeijingWeatherInfoQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBQuery/WeatherInfoQuery/CurrentDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBQuery/WeatherInfoQuery/FuzhouWeatherInfoQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBQuery/WeatherInfoQuery/ShanghaiWeatherInfoQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBQuery/WeatherInfoQuery/WeatherInfoQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBUpdate/BeijingWeatherInfoUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBUpdate/DBUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBUpdate/FuzhouWeatherInfoUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DBUpdate/ShanghaiWeatherInfoUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weathersystem.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/catcafe/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/catcafe/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/multithreading/Multithreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/multithreading/Multithreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/West2JavaTask3.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="22VWV9kXyfKfKGdeNSeNaUscOQ7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/Java/libraries/jdbc-helper-0.3.1/jdbc-helper-0.3.1.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="CityInfoSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="business.InfoSet.CityInfoSet" />
+      <module name="West2JavaTask3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="business.InfoSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBInit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="persistence.DBInit" />
+      <module name="West2JavaTask3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Launcher" />
+      <module name="West2JavaTask3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="West2JavaTask3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.CityInfoSet" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dba8dd0-da7d-4dd9-a196-2e7eb0c8e79d" name="Changes" comment="" />
+      <created>1639923258179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639923258179</updated>
+      <workItem from="1639923259421" duration="3495000" />
+      <workItem from="1640052293580" duration="1134000" />
+      <workItem from="1640162015276" duration="3115000" />
+      <workItem from="1640181898069" duration="100000" />
+      <workItem from="1640182014257" duration="519000" />
+      <workItem from="1640182551650" duration="3174000" />
+      <workItem from="1640249115907" duration="4123000" />
+      <workItem from="1640260328256" duration="1686000" />
+      <workItem from="1640337385457" duration="1254000" />
+      <workItem from="1640418443329" duration="4765000" />
+      <workItem from="1641780081135" duration="2087000" />
+      <workItem from="1641898191320" duration="5443000" />
+      <workItem from="1641904118919" duration="56000" />
+      <workItem from="1641909386611" duration="4746000" />
+      <workItem from="1641960715344" duration="15139000" />
+      <workItem from="1642072532549" duration="762000" />
+      <workItem from="1642076279484" duration="8901000" />
+      <workItem from="1642142433230" duration="5473000" />
+      <workItem from="1642164845904" duration="8871000" />
+      <workItem from="1642255829844" duration="8075000" />
+      <workItem from="1642306652722" duration="12075000" />
+      <workItem from="1642321184425" duration="3238000" />
+      <workItem from="1642330193187" duration="17614000" />
+      <workItem from="1642421512162" duration="8342000" />
+      <workItem from="1642433480948" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
